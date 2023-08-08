@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;0,500;0,700;0,900;1,400&family=Rubik:wght@300;400;500&display=swap');
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,6 +9,7 @@
 body {
   background: #1f2937;
   color: #eee;
+  font-family: 'roboto', Arial, Helvetica, sans-serif;
   max-width: 1040px;
   margin: 0 auto;
   padding: 16px;
@@ -31,6 +34,31 @@ li {
 }
 
 .link {
-  color: #eee;
+  color: #e5e7eb;
   text-decoration: none;
+}
+
+.section-one {
+  display: flex;
+}
+
+.hero-title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-text {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup-btn {
+  background: #3882f6;
+}
+
+.img-placeholder {
+  background: rgb(172, 172, 172);
+  width: 450px;
+  height: 200px;
 }
