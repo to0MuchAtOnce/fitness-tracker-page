@@ -32,11 +32,17 @@ li {
 .links {
   display: flex;
   font-size: 18px;
+  gap: 10px;
 }
 
 .link {
   color: #e5e7eb;
   text-decoration: none;
+}
+
+.link:hover {
+  color: #3882f6;
+  transition: ease-in-out 0.1s;
 }
 
 .section-one {
@@ -68,6 +74,14 @@ li {
   padding: 8px 28px;
   border: 0;
   border-radius: 8px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: scale(0.98);
 }
 
 .img-placeholder {
