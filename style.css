@@ -48,8 +48,8 @@ li {
 .section-one {
   display: flex;
   justify-content: space-between;
-  margin: 16px 170px;
-  margin-bottom: 100px;
+  margin: 16px 170px 0;
+  height: 470px;
 }
 
 .hero-title {
@@ -84,11 +84,13 @@ li {
   transform: scale(0.98);
 }
 
-.img-placeholder {
-  flex: 1;
-  background: rgb(172, 172, 172);
-  width: 520px;
-  height: 200px;
+.img {
+}
+
+.app-mockup {
+  border-radius: 20px 20px 0 0;
+  width: 350px;
+  height: 470px;
 }
 
 .section-two {
@@ -105,6 +107,16 @@ li {
   font-size: 36px;
   font-weight: 900;
   margin-top: 50px;
+}
+
+.section-2-img {
+  width: 150px;
+  height: 150px;
+}
+
+.activity-tracker {
+  width: 140px;
+  height: 150px;
 }
 
 .section-two-cards {
